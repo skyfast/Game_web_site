@@ -1,0 +1,63 @@
+body{
+  /* soft pink for cuties */
+  background-color: #f2dde4;
+  box-sizing: border-box;
+}
+
+.footer{
+  background-color: white;
+}
+
+/*uesed for general sections */
+.page-sec
+{
+  background-color: white;
+  width: 80%;
+  margin: 40px auto;
+  border-radius: 5px;
+}
+/*used for tic-tac-toe board */
+.board
+{
+    background-color: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+.game-table
+{
+    border-color: black; /*makes the line seeable */
+    table-layout: fixed ;
+    width: 100% ;
+}
+
+.game-table td /*sizes the table */
+{
+  width: 33%;
+  height: 250px;
+  text-align: center; /*center the text*/
+  padding: 0;
+  display: inline-block;
+}
+.game-table td p /*style for the X and O s on board */
+{
+  font-size: 48px;
+  text-align: center;
+  margin: auto;
+  margin-top:25%;
+}
+
+/* utility */
+
+/*free code camp
+solution https://www.freecodecamp.org/forum/t/solved-center-btn-group-super-easy-solution/160504
+*/
+.center
+{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+  }
