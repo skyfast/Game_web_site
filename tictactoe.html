@@ -39,11 +39,11 @@
 		</div>
     <!-- body -->
 		<!-- ask for players -->
-		<div class="page-sec">
+		<div class="page-sec" id="playTab">
 			<h2 class="h2 text-center">Pick Your Mode</h2>
 			<div class="btn-group btn-group-lg center" role="mode-pick">
-			  <button type="button center" class="btn btn-primary">1 player mood</button>
-			  <button type="button center" class="btn btn-primary">2 player mood</button>
+			  <button type="button center" id="playerone" class="btn btn-primary">1 player mood</button>
+			  <button type="button center" id="playertwo" class="btn btn-primary">2 player mood</button>
 			</div>
 		</div>
     <div class="container board">
@@ -51,22 +51,22 @@
       <table class="table table-bordered game-table">
 				<h2 class="display-3 text-center">Tic-Tac-Toe</h2>
 				<!-- used to diplay the curent player -->
-				<h3 id="Player_turn text-center" class="display-3"></h3>
+				<h3 id="Player_turn" class="h2 text-center"></h3>
         <tbody>
           <tr>
-            <td scope="row"><p>X</p></td>
-            <td><p>X</p></td>
-            <td><p>X</p></td>
+            <td scope="row" class="tttboard"><p></p></td>
+            <td class="tttboard"><p></p></td>
+            <td class="tttboard"><p></p></td>
           </tr>
           <tr>
-						<td scope="row"><p>X</p></td>
-            <td><p>X</p></td>
-            <td><p>X</p></td>
+			<td scope="row" class="tttboard"><p></p></td>
+            <td class="tttboard"><p></p></td>
+            <td class="tttboard"><p></p></td>
           </tr>
           <tr>
-						<td scope="row"><p>X</p></td>
-            <td align="center"><p>X</p></td>
-            <td><p>X</p></td>
+            <td scope="row" class="tttboard"><p></p></td>
+            <td class="tttboard"><p></p></td>
+            <td class="tttboard"><p></p></td>
           </tr>
         </tbody>
       </table>
@@ -76,4 +76,6 @@
 			<div class="footer">
 	      <p>test</p>
 	    </div>
+        
+        <script src="scripts/tic-tac-toe.js"></script>
 	</body>
